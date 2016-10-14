@@ -1,87 +1,43 @@
-#location{
-    font-family: Helvetica, sans-serif;
-    font-size: .5em;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color:burlywood;
-    border: 1px solid #000000;
-    width: 100px;
-    height: 50px;
-    margin: 5px;
-}
+h1{
+    font-size: 16px;
+    position:relative;
+    margin: auto;
+    width: 30%;
+    border: 3px solid #73AD21;
+    padding: 10px;
 
-#conditions {
-    font-size: .5em;
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 100px;
-    left: 50px;
-    margin: 5px;
-    background-color:burlywood;
-}
-img {
-    width: 100px;
-}
-
-#wind {
-    font-family: Helvetica, sans-serif;
-    font-size: 4px;
-    position: absolute;
-    top: 300px;
-    left: 0px;
-    background-color:burlywood;
-    border: 1px solid #000000;
-    width: 100px;
-    height: 50px;
-    margin: 5px;
-}
-
-#percipitation {
-    font-family: Helvetica, sans-serif;
-    font-size: .5em;
-    position: absolute;
-    top: 400px;
-    left: 0px;
-    background-color:burlywood;
-    border: 1px solid #000000;
-    width: 100px;
-    height: 50px;
-    margin: 5px;
 }
 nav{
-    font-family: Helvetica, sans-serif;
-    font-size: .5em;
-    position: absolute;
+    background-color: chocolate;
+    position: relative;
+    right: 0px;
     bottom: 0px;
-    right: 0px;
-    background-color:burlywood;
-    border: 1px solid #000000;
+}
+#location{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    background-color: aqua;
+    width: 100px
+}
+#conditions{
+    position: relative;
+    background-color: aquamarine;
+    width: 200px;
+    left: 50px
+}
+#conditions img{
     width: 100px;
-    height: 50px;
-    margin: 5px;
-
 
 }
-footer {
-    font-family: Helvetica, sans-serif;
-    font-size: .4em;
-    text-align: center;
-    align-content: center;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    background-color:burlywood;
-    border: 1px solid #000000;
-    width: 30px;
-    height: 30px;
-    margin: 5px;
+#wind {
+    width: 100px;
+    background-color: beige;
+    font-size: .5em;
+}
+#percipitation {
+    width: 100px;
+    background-color: blanchedalmond;
+    font-size: .5em;
 }
 
-h1 {
-    position: absolute;
-    top: 0px;
-    right: 500px;
-    background-color:burlywood;
-}
