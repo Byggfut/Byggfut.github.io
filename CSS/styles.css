@@ -1,43 +1,107 @@
-h1{
-    font-size: 16px;
-    position:relative;
-    margin: auto;
-    width: 30%;
-    border: 3px solid #73AD21;
-    padding: 10px;
+
+p{
+    font-size: 60px;
+}
+h2{
+    font-size: 70px;
+}
+h3{
+    font-size: 46px;
+    }
+nav{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
 
 }
-nav{
-    background-color: chocolate;
-    position: relative;
-    right: 0px;
-    bottom: 0px;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+nav li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+}
+section{
+    margin: 50px;
 }
 #location{
     position: relative;
     left: 0px;
     top: 0px;
-    background-color: aqua;
-    width: 100px
+    width: 600px;
+    height: 400px;
+    background-color: coral;
+    border: 8px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+#city{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size:5em;
+}
+#state{
+    font-family: Georgia, serif;
+    font-size: 4em;
 }
 #conditions{
     position: relative;
     background-color: aquamarine;
-    width: 200px;
-    left: 50px
+    width: 700px;
+    left: 200px;
+    border: 8px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
 }
 #conditions img{
-    width: 100px;
+    width:50%;
 
 }
 #wind {
-    width: 100px;
+    width: 650px;
     background-color: beige;
-    font-size: .5em;
+    font-size: 1em;
+    border: 8px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+#windmill{
+position: right;
+
 }
 #percipitation {
-    width: 100px;
+    width: 500px;
+    height: 300px;
     background-color: blanchedalmond;
-    font-size: .5em;
+    font-size: 1em;
+    border: 8px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+}
+#iphone{
+    width:20px;
 }
 
