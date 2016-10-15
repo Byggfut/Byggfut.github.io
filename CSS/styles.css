@@ -12,7 +12,6 @@ nav{
     position: fixed;
     right: 100px;
     bottom: 100px;
-
 }
 nav ul {
     list-style-type: none;
@@ -20,14 +19,17 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    height: auto
 }
-nav li {
+
+nav li  {
+    float: right;
     display: block;
     color: white;
     text-align: center;
+    font-size: 40px;
     padding: 14px 16px;
     text-decoration: none;
-    float: right;
 }
 section{
     margin: 50px;
@@ -102,6 +104,6 @@ position: right;
     box-shadow: 2px 2px 4px #888;
 }
 #iphone{
-    width:20px;
+    width:30%;
 }
 
