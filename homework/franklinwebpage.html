@@ -6,61 +6,50 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Franklin Weather Conditions</title>
     <meta name="viewport" content="width=device-width">
-    <link href="../CSS/styles.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="../CSS/style2.css" type="text/css" rel="stylesheet" media="screen">
 </head>
-
 <body>
     <div id="wrapper">
         <nav>
-            <ul>
+           <ul>
                 <li id="F">Franklin, ID</li>
                 <li id="S">Springfield, IL</li>
                 <li id="G">Greenville, NC</li>
             </ul>
         </nav>
         <header>
-            <h1>How the Weather?<sup>&#174;</sup>.com</h1>
+<!--            <h1>How the Weather?<sup>&#174;</sup>.com</h1>-->
         </header>
         <main>
 <!--            Location of Selected Weather Conditions-->
             <section id="location">
-                <h2>Location:</h2>
-                <p id="city">Franklin, Idaho</p>
+                <p id="city">Franklin, ID</p>
             </section>
-            <section id="temperature">
-                <h2>Temperature</h2>
-                <p>High: 90 &#8457;</p>
-                <p>Low: 66 &#8457;</p>
-                </section>
 <!--            Summary with average temperatures and included image representing the weather conditions-->
             <section id="conditions">
-                <img src=/images/imagesunny.png alt="sun" id="sun">
-                <h2>Current Condition</h2>
-                <p>Sunny</p>
+                <img src=/images/whitesun.png alt="sunny" id="sunny" >
+                <h2>Sunny</h2>
+                <p>High: 90 &#8457;</p>
+                <p>Low: 66 &#8457;</p>
             </section>
-<!--            Current Windspeed and Direction-->
-            <section id="wind">
-                <h2>Wind Conditions</h2>
-                <h3>Wind Speed</h3>
-                <p>1-5 miles per hour</p>
-                <h3>Wind Direction</h3>
-                <p>Southwest</p>
-                <img src=/images/windmill.gif alt="windmill" id="windmill">
-            </section>
-            <section id="precipitation">
+    <table>
+        <tr>
+            <th id="wind">Wind Speed</th>
+            <th id="direction">Wind Direction</th>
+        </tr>
+        <tr>
+            <td>1-5 miles per hour</td>
+            <td>Southwest</td>
+        </tr>
+    </table>
+            <section id="rain">
                 <h2>Precipitation</h2>
                 <p>0 inches</p>
             </section>
+
             <section id="sketch">
                 <h2>Original Mobile Layout Sketch</h2>
                 <img src="/images/iphonefinal.GIF" alt="iphone">
-            </section>
-            <section id=considerations>
-            <h2>Additional Considerations</h2>
-                <p>To those who are grading my website, I wanted to make sure that I clarified regarding some devaitaions from my original design. As seen in the above picture, I had considerably more space in the left-hand margin of my website. While I initially started my design this way, it quickly became apparent that the would either have to be comporessed or very difficult to read. Instead, I made the executive decsion to shrink the right-hand margin and implement a more scrolling-friendly design.
-                </p>
-                <p>To clarify regarding the changing of my navigation bar style, I quickly realized that (1) the bar would be too small if designed like I had in the diagram, and (2) having a fixed bar at the bottom would be both difficult to press, and require the user to scroll all the way to the bottom of the page. Thus, I figured that a fixed bar would make for a more pleasant user experience.</p>
-                <p>However, I have tried to remain faithful to my original design in other aspects, and I hope that this is is evident as it is being reviewed.</p>
             </section>
         </main>
         <footer>
