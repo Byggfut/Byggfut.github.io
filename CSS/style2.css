@@ -2,7 +2,7 @@
 html{
     background-color:gray;
 }
-*p{
+p{
     font-size: 18px;
 }
 h2{
@@ -49,6 +49,7 @@ body{
 #city{
     margin-top: 15px;
     margin-bottom: 0px;
+    font-size: .9em;
 }
 #conditions{
     position: relative;
@@ -68,12 +69,16 @@ body{
 #sunny{
     width: 50%;
 }
-#wind{
-    text-align: center;
-}
-#direction{
-    text-align: center;
-}
+    #windtable{
+        position: relative;
+        left: 4%;
+    }
+    #direction{
+        font-size: 1.5em;
+    }
+    #direction2{
+        font-size: 1.2em;
+    }
 #rain{
     margin: 50px;
     position: relative;
@@ -140,7 +145,6 @@ footer{
     }
 
     nav li  {
-        float: center;
         display: block;
         text-align: right;
         font-size: 2.5vw;
@@ -165,10 +169,11 @@ footer{
     #hourly th{
         padding: 10px;
     }
-    #location {
+    #city {
         position: relative;
         right: 18%;
-        margin-top: -50px;
+        font-size: 1em;
+        margin-bottom: 25px;
     }
     #sunny{
         width:40%;
@@ -197,28 +202,32 @@ footer{
     #rain p{
         font-size: 2em;
     }
-    #windtable{
-        position: relative;
-        right: 2%;
-    }
-    #direction{
-        font-size: 2.0em;
-    }
-    #direction2{
-        font-size: 1.8em;
-    }
     #wind{
+        position: relative;
+        right: 5%;
         font-size: 2.2em;
     }
     #wind2{
+        position: relative;
+        right: 5%;
         font-size: 1.8em;
+    }
+    #direction{
+        font-size: 2.0em;
+        position: relative;
+        right: 8%;
+    }
+    #direction2{
+        font-size: 1.8em;
+        position: relative;
+        right: 8%;
     }
     footer{
         position: absolute;
         bottom: -30%;
     }
 }
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1100px){
     html{
         background-color: chocolate;
     }
@@ -252,35 +261,39 @@ footer{
         margin: auto;
     }
     #location{
-        font-size: 2.5em;
-        right: 40%;
-        padding: 30px;
+        position: relative;
+        right: 20%;
+        margin-bottom: 40px;
+        top: 20px;
     }
     #sunny{
         position: absolute;
-        left: 19%;
-        width: 7%;
-        top: -80%;
+        left: 24%;
+        max-width: 6%;
+        bottom: 128%;
     }
     #zip{
         display: inline;
         position: relative;
-        right: 42.5%;
+        right: 41.5%;
         font-size: 1.2em;
-        bottom: 45px;
+        padding:
+
 
     }
     #lonandlat {
         display: inline;
         position: relative;
-        right: 40.5%;
+        right: 40%;
         font-size: 1.2em;
-        bottom: 45px;
+        top: 10px;
+
     }
     #conditions h2{
         position: relative;
         right: 43%;
         font-size: 2em;
+        margin-top: 25px;
     }
     #conditions p{
         position: relative;
@@ -294,7 +307,7 @@ footer{
     }
     #rain p{
         position: relative;
-        right: 26.75%;
+        right: 27.75%;
         font-size: 1.5em;
     }
     #hourly{
@@ -306,22 +319,20 @@ footer{
     }
     #wind{
         position: relative;
-        left: 5%;
+        right: 14%;
         font-size: 1.7em;
     }
     #wind2{
         position: relative;
-        left: 8%;
+        right: 9%;
         font-size: 1.5em;
     }
     #direction{
         position: relative;
-        left: 5%;
         font-size: 1.7em;
     }
     #direction2{
         position: relative;
-        left: 5%;
         font-size: 1.5em;
     }
 }
