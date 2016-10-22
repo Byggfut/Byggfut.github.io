@@ -262,15 +262,15 @@ footer{
     }
     #location{
         position: relative;
-        right: 20%;
+        right: 21%;
         margin-bottom: 40px;
         top: 20px;
     }
     #sunny{
         position: absolute;
-        left: 22%;
+        left: 18%;
         max-width: 5%;
-        bottom: 143%;
+        bottom: 135%;
     }
     #zip{
         display: inline;
@@ -307,7 +307,7 @@ footer{
     }
     #rain p{
         position: relative;
-        right: 27.75%;
+        right: 26.75%;
         font-size: 1.5em;
     }
     #hourly{
@@ -319,7 +319,7 @@ footer{
     }
     #wind{
         position: relative;
-        right: 14%;
+        right: 10%;
         font-size: 1.7em;
     }
     #wind2{
