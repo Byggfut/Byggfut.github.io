@@ -106,7 +106,7 @@ table, td, th {
 footer{
     text-align: left;
 }
-#sketch img{
+#sketchmobile img{
     max-width: 100%;
 }
 #hourly, #zip, #lonandlat{
@@ -118,9 +118,39 @@ footer{
         background-color:cadetblue;
         position: relative;
     }
-    #sketch{
+    #sketchmobile{
         display: none;
     }
+    nav{
+        position: fixed;
+        display: block;
+        z-index: 100;
+        bottom: 0px;
+        right: 0%;
+        margin: 3vw;
+        border: 1px solid white;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        height: auto;
+    }
+
+    nav li  {
+        float: center;
+        display: block;
+        text-align: right;
+        font-size: 2.5vw;
+        z-index: 5;
+        border: 1px solid white;
+        padding: 14px 16px;
+        text-decoration:none;
+        margin: auto;
+    }
+
     #hourly{
         display: inline;
         position: absolute;
@@ -135,16 +165,16 @@ footer{
     #hourly th{
         padding: 10px;
     }
-    #location{
+    #location {
         position: relative;
         right: 18%;
-        margin-top: 50px;
+        margin-top: -50px;
     }
     #sunny{
         width:40%;
         position: relative;
         right: 18%;
-        margin-top: -40px;
+        margin-top: -30px;
         margin-bottom: 30px;
     }
     #conditions h2{
@@ -192,6 +222,35 @@ footer{
     html{
         background-color: chocolate;
     }
+    nav{
+        position: fixed;
+        display: block;
+        z-index: 100;
+        bottom: 0px;
+        right: 30%;
+        margin: 2vw;
+        border: 1px solid white;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        height: auto;
+    }
+
+    nav li  {
+        float: right;
+        display: block;
+        text-align: center;
+        font-size: 2vw;
+        z-index: 5;
+        border: 1px solid white;
+        padding: 14px 16px;
+        text-decoration:none;
+        margin: auto;
+    }
     #location{
         font-size: 2.5em;
         right: 40%;
@@ -199,7 +258,7 @@ footer{
     }
     #sunny{
         position: absolute;
-        left: 16%;
+        left: 18%;
         width: 7%;
         top: -57%;
     }
@@ -224,29 +283,32 @@ footer{
         font-size: 1.5em;
     }
     #hourly{
-        width:15%;
+        width:20%;
+        height: 650px;
+
     }
     #wind{
         position: relative;
-        left: 18%;
-        font-size: 1.5em;
+        left: 5%;
+        font-size: 1.7em;
     }
     #wind2{
         position: relative;
-        left: 18%;
+        left: 8%;
         font-size: 1.5em;
     }
     #direction{
         position: relative;
-        left: 20%;
-        font-size: 1.5em;
+        left: 5%;
+        font-size: 1.7em;
     }
     #direction2{
         position: relative;
-        left: 20%;
+        left: 5%;
         font-size: 1.5em;
     }
 }
+
 
 
 
