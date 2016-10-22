@@ -190,9 +190,65 @@ footer{
 }
 @media screen and (min-width: 1000px){
     html{
-        background-color: aquamarine;
+        background-color: chocolate;
+    }
+    #location{
+        font-size: 2.5em;
+        right: 40%;
+        padding: 30px;
+    }
+    #sunny{
+        position: absolute;
+        left: 16%;
+        width: 7%;
+        top: -57%;
+    }
+    #conditions h2{
+        position: relative;
+        right: 43%;
+        font-size: 2em;
+    }
+    #conditions p{
+        position: relative;
+        right: 42.75%;
+        font-size: 1.3em;
+    }
+    #rain h2{
+        position: relative;
+        right: 24.5%;
+        font-size: 1.8em;
+    }
+    #rain p{
+        position: relative;
+        right: 26.75%;
+        font-size: 1.5em;
+    }
+    #hourly{
+        width:15%;
+    }
+    #wind{
+        position: relative;
+        left: 18%;
+        font-size: 1.5em;
+    }
+    #wind2{
+        position: relative;
+        left: 18%;
+        font-size: 1.5em;
+    }
+    #direction{
+        position: relative;
+        left: 20%;
+        font-size: 1.5em;
+    }
+    #direction2{
+        position: relative;
+        left: 20%;
+        font-size: 1.5em;
     }
 }
+
+
 
 
 
