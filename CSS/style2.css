@@ -187,54 +187,7 @@ footer{
     }
 }
 @media screen and (min-width: 1100px){
-    html{
-        background-color: chocolate;
-}
-    #location{
-        position: relative;
-        right: 40%;
-        top: 65px;
-    }
-    #zip, #lonandlat {
-        position: relative;
-        right: 40%;
-        display: inline;
-        top:65px;
-    }
-    #zip{
-        text-align: left;
-        font-size: 2em;
-        right: 27%;
-    }
-    #lonandlat{
-        font-size: 2em;
-    }
-    }
-    #sunny{
-        position: absolute;
-        width: 7%;
-        left: 17%;
-        top: -55px;
-    }
-    #conditions h2{
-        position: relative;
-        right: 35%;
-        top: 70px;
-    }
-    #conditions p{
-        position: relative;
-        right: 35%;
-        top: 50px;
-        margin-bottom: 50px;
-    }
-    #hourly{
-        width: 15%;
-    }
-    #rain h2{
-        position: relative;
-        right: 18%;
-    }
-    #rain
+
 }
 
 
