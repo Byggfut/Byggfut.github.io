@@ -244,7 +244,7 @@ footer{
         float: right;
         display: block;
         text-align: center;
-        font-size: 2vw;
+        font-size: 1.5vw;
         z-index: 5;
         border: 1px solid white;
         padding: 14px 16px;
@@ -258,9 +258,24 @@ footer{
     }
     #sunny{
         position: absolute;
-        left: 18%;
+        left: 19%;
         width: 7%;
-        top: -57%;
+        top: -80%;
+    }
+    #zip{
+        display: inline;
+        position: relative;
+        right: 42.5%;
+        font-size: 1.2em;
+        bottom: 45px;
+
+    }
+    #lonandlat {
+        display: inline;
+        position: relative;
+        right: 40.5%;
+        font-size: 1.2em;
+        bottom: 45px;
     }
     #conditions h2{
         position: relative;
@@ -284,7 +299,9 @@ footer{
     }
     #hourly{
         width:20%;
-        height: 650px;
+        height: 550px;
+        right: 4%;
+        top: 5%;
 
     }
     #wind{
