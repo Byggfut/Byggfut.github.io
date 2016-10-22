@@ -1,0 +1,30 @@
+html *{
+    box-sizing: border-box;
+}
+
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    max-width: auto;
+}
+nav{
+    position: absolute;
+    max-width: 20%;
+}
+main{
+    position: relative;
+    left:20%;
+}
+aside{
+    position: absolute;
+    right:20%;
+}
+
+body{
+    font: 20px "times new roman", times, serif;
+    margin: 0;
+    padding: 0;
+}

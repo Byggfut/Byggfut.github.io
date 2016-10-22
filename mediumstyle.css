@@ -1,0 +1,121 @@
+html{
+    background-color:aqua;
+}
+*p{
+    font-size: 18px;
+}
+h2{
+    font-size: 22px;
+}
+nav{
+    position: fixed;
+    display: block;
+    z-index: 100;
+    bottom: 0px;
+    left: 5%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: auto;
+}
+
+nav li  {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 50%vw;
+    z-index: 5;
+    border: 5px black;
+    padding: 14px 16px;
+    text-decoration:none;
+    margin: auto;
+}
+body{
+    text-align: center;
+    color: white;
+}
+#location{
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+    display: inline;
+}
+#city{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+#conditions{
+    position: relative;
+    height: 100%;
+    text-align: center;
+}
+#conditions h2{
+    font-size: 3rem;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+#conditions p{
+    font-size: 1.5rem;
+    margin-top: -5px;
+
+}
+#conditions p {
+    margin: 20px;
+}
+#sunny{
+    width: 50%;
+}
+#wind{
+    text-align: center;
+}
+#direction{
+    text-align: center;
+}
+#rain{
+    margin: 50px;
+    position: relative;
+}
+table {
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+th {
+    font-size: 1.1em;
+}
+#wind{
+    font-size: 1.5rem;
+}
+table, th, td {
+    border-collapse: separate;
+    border-spacing: 10px 10px;
+}
+#rain h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+#rain p{
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+footer{
+    text-align: left;
+}
+#sketch img{
+    max-width: 100%;
+}
+#hourly{
+    display: none;
+}
+@media screen and (min-width= 600px0){
+    html{
+        background-color: aqua;
+}
+}
