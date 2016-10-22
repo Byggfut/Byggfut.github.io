@@ -268,16 +268,16 @@ footer{
     }
     #sunny{
         position: absolute;
-        left: 24%;
-        max-width: 6%;
-        bottom: 128%;
+        left: 22%;
+        max-width: 5%;
+        bottom: 143%;
     }
     #zip{
         display: inline;
         position: relative;
         right: 41.5%;
         font-size: 1.2em;
-        padding:
+        top: 10px;
 
 
     }
@@ -286,14 +286,14 @@ footer{
         position: relative;
         right: 40%;
         font-size: 1.2em;
-        top: 10px;
+        top: 25px;
 
     }
     #conditions h2{
         position: relative;
         right: 43%;
         font-size: 2em;
-        margin-top: 25px;
+        margin-top: 50px;
     }
     #conditions p{
         position: relative;
