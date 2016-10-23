@@ -111,10 +111,10 @@ table, td, th {
 footer{
     text-align: left;
 }
-#sketchmobile img{
-    max-width: 100%;
-}
-#hourly, #zip, #lonandlat{
+    #iphone{
+        width: 100%;
+    }
+#hourly, #zip, #lonandlat, #ipad, #browser {
     display: none;
 }
 }
@@ -123,8 +123,14 @@ footer{
         background-color:cadetblue;
         position: relative;
     }
-    #sketchmobile{
+    #iphone, #browser{
         display: none;
+    }
+    #ipad{
+        display: inline;
+        width: 70%;
+        position: relative;
+        bottom: -90px;
     }
     nav{
         position: fixed;
@@ -231,6 +237,15 @@ footer{
     html{
         background-color: chocolate;
     }
+    #ipad{
+     display: none;
+    }
+    #browser{
+        display: inline;
+        position: relative;
+        bottom: -200px;
+        width: 70%
+    }
     nav{
         position: fixed;
         display: block;
@@ -262,15 +277,15 @@ footer{
     }
     #location{
         position: relative;
-        right: 20%;
+        right: 21%;
         margin-bottom: 40px;
         top: 20px;
     }
     #sunny{
         position: absolute;
-        left: 22%;
+        left: 19%;
         max-width: 5%;
-        bottom: 145%;
+        bottom: 135%;
     }
     #zip{
         display: inline;
@@ -314,7 +329,7 @@ footer{
         width:20%;
         height: 550px;
         right: 4%;
-        top: 5%;
+        top: 0%;
 
     }
     #wind{
