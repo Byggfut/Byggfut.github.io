@@ -7,21 +7,21 @@ p{
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 main{
     order: 0;
     padding: 30px;
     flex-grow: 1;
 }
-main{
-    width: 50%
+nav{
+    flex: 1 25%;
 }
 aside{
-    width: 25%
+    flex: 1 25;
 }
-nav{
-    align-self: center;
+main{
+    flex: 2 50%;
+}
 }
 
 }
