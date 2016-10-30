@@ -6,7 +6,7 @@
         font-size: 24px;
     }
     h2{
-        font-size: 26px;
+        font-size: 36px;
     }
     nav{
         display: flex;
@@ -18,13 +18,13 @@
         color: inherit;
         text-decoration: inherit;
         font-weight: bold;
-        font-size: 1em;
+        font-size: 4.5vw;
     }
     body{
         color: white;
     }
     #location{
-        font-size: 3rem;
+        font-size: 8vw;
         position: relative;
         text-align: center;
         display: inline;
@@ -32,16 +32,19 @@
     #city{
         margin-top: 15px;
         margin-bottom: 0px;
-        font-size: .9em;
+        font-size: 8vw;
     }
-    .conditions {
+    #conditions {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .conditions{
-
+    #conditions h2 {
+        font-size: 7vw;
+    }
+    #conditions p{
+        font-size: 6vw;
     }
     #thunder{
         width: 50%;
@@ -49,26 +52,26 @@
     #sunny{
         width: 50%;
     }
-
     }
     #direction{
-        font-size: 1.5em;
+        font-size: 1.5vw;
     }
     #direction2{
-        font-size: 1.2em;
+        font-size: 1.2vw;
     }
-    #rain{
-        margin: 50px;
-        position: relative;
-    }
+#rain{
+
+}
     #hourly {
         border-collapse: collapse;
-        position: relative;
-        margin: auto;
-        margin-top: 30px;
-        font-size: 1.5em;
+        text-align: center;
+        overflow-y: scroll;
     }
-    .wind{
+    th, td {
+    padding: 10px;
+    text-align: center;
+}
+    #wind{
         flex-direction: column;
         align-content: center;
 
@@ -77,15 +80,15 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 0px;
 
     }
     #rain h2 {
-        font-size: 1.5em;
-        margin-bottom: 5px;
+        font-size: 5vw;
+        margin-bottom: 5%;
     }
     #rain p{
         margin-top: 10px;
+        font-size: 7vw;
     }
     footer{
         text-align: left;
@@ -96,133 +99,68 @@
     #hourly, #zip, #lonandlat, #ipad, #browser {
         display: none;
     }
-    .wind{
+    #wind{
         display: flex;
         flex-direction: row-reverse;
         justify-content:space-around;
         margin-top: -5%;
 }
-.speed p{
+#speed p{
     text-align: center;
 }
-.direction{
+#direction{
     text-align: center;
 }
-    @media screen and (min-width: 700px){
+#direction P{
+    font-size: 6vw;
+}
+#direction h2{
+    font-size: 6vw;
+}
+#speed h2{
+    font-size: 6vw;
+}
+#speed p{
+    font-size: 6vw;
+}
+@media screen and (min-width: 550px){
+
         html{
-            background-color:cadetblue;
-            position: relative;
-        }
-        #iphone, #browser{
-            display: none;
-        }
-        #ipad{
-            display: inline;
-            width: 70%;
-            position: relative;
-            bottom: -90px;
-        }
-        nav{
-            position: fixed;
-            display: block;
-            z-index: 100;
-            bottom: 0px;
-            right: 0%;
-            margin: 3vw;
-            border: 1px solid white;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            height: auto;
-        }
-
-        nav li  {
-            display: block;
-            text-align: right;
-            font-size: 2.5vw;
-            z-index: 5;
-            border: 1px solid white;
-            padding: 14px 16px;
-            text-decoration:none;
-            margin: auto;
-        }
-
-        #hourly{
-            display: inline;
-            position: absolute;
-            right: 3%;
-            top: 5%;
-            height: 800px;
-            width: 30%;
-            overflow: scroll;
-            overflow-y: scroll;
-            overflow-x: hidden;
-        }
-        #hourly th{
-            padding: 10px;
-        }
-        #city {
-            position: relative;
-            right: 18%;
-            font-size: 1em;
-            margin-bottom: 25px;
-        }
-        #sunny{
-            width:40%;
-            position: relative;
-            right: 18%;
-            margin-top: -30px;
-            margin-bottom: 30px;
-        }
-        #conditions h2{
-            position: relative;
-            right: 18%;
-            font-size: 3em;
-        }
-        #conditions p{
-            position: relative;
-            right: 18%;
-            font-size: 2em;
-        }
-        #rain{
-            position: relative;
-            right: 18%;
-        }
-        #rain h2 {
-            font-size: 2.5em;
-        }
-        #rain p{
-            font-size: 2em;
-        }
-        #wind{
-            position: relative;
-            right: 5%;
-            font-size: 2.2em;
-        }
-        #wind2{
-            position: relative;
-            right: 5%;
-            font-size: 1.8em;
-        }
-        #direction{
-            font-size: 2.0em;
-            position: relative;
-            right: 8%;
-        }
-        #direction2{
-            font-size: 1.8em;
-            position: relative;
-            right: 8%;
-        }
-        footer{
-            position: absolute;
-            bottom: -30%;
-        }
+            background-color: cadetblue;
     }
+    #iphone{
+        display: none;
+    }
+    #ipad{
+        display: inline;
+        width: 100%;
+    }
+    #mediumlayout{
+        display: flex;
+        flex-direction: row;
+    }
+    #conditions{
+        display: inline;
+        align-items: center;
+        text-align: center;
+        width: 50%;
+        height: 30%;
+    }
+    #hourly{
+        display: inline;
+        text-align: center;
+        width: 50%;
+        font-size: 4.5vw;
+        height: 600px;
+        margin-bottom: 40px;
+    }
+    #layout{
+        margin-top: 20px;
+    }
+    #city{
+        margin-top: 30px;
+    }
+            }
     @media screen and (min-width: 1000px){
         html{
             background-color: chocolate;
@@ -234,110 +172,76 @@
             display: inline;
             position: relative;
             bottom: -200px;
-            width: 70%
+            width: 100%;
         }
-        nav{
-            position: fixed;
-            display: block;
-            z-index: 100;
-            bottom: 0px;
-            right: 30%;
-            margin: 2vw;
-            border: 1px solid white;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            height: auto;
-        }
-
-        nav li  {
-            float: right;
-            display: block;
-            text-align: center;
+        a{
             font-size: 1.5vw;
-            z-index: 5;
-            border: 1px solid white;
-            padding: 14px 16px;
-            text-decoration:none;
-            margin: auto;
         }
-        #location{
-            position: relative;
-            right: 21%;
-            margin-bottom: 40px;
-            top: 20px;
-        }
-        #sunny{
-            position: absolute;
-            left: 19%;
-            max-width: 5%;
-            bottom: 135%;
-        }
-        #zip{
-            display: inline;
-            position: relative;
-            right: 41.5%;
-            font-size: 1.2em;
-            top: 10px;
-
-
-        }
-        #lonandlat {
-            display: inline;
-            position: relative;
-            right: 40%;
-            font-size: 1.2em;
-            top: 25px;
-
-        }
-        #conditions h2{
-            position: relative;
-            right: 43%;
-            font-size: 2em;
-            margin-top: 50px;
-        }
-        #conditions p{
-            position: relative;
-            right: 42.75%;
-            font-size: 1.3em;
-        }
-        #rain h2{
-            position: relative;
-            right: 24.5%;
-            font-size: 1.8em;
-        }
-        #rain p{
-            position: relative;
-            right: 26.75%;
-            font-size: 1.5em;
-        }
-        #hourly{
-            width:20%;
-            height: 550px;
-            right: 4%;
-            top: 0%;
-
+        #container{
+            display: flex;
+            flex-flow: row;
+            justify-content: center;
         }
         #wind{
-            position: relative;
-            right: 10%;
-            font-size: 1.7em;
+            display: flex;
+            flex-direction: column;
         }
-        #wind2{
-            position: relative;
-            right: 9%;
-            font-size: 1.5em;
+        #city{
+            font-size: 5vw;
+            text-align: left;
+            margin-left: 1%;
         }
-        #direction{
-            position: relative;
-            font-size: 1.7em;
+        #conditions{
+            margin-right: 20%;
+            margin-left: 5%;
         }
-        #direction2{
-            position: relative;
-            font-size: 1.5em;
+        #conditions h2{
+            font-size: 3vw;
         }
-    }
+        #conditions p{
+            font-size: 3vw;
+        }
+        #hourly{
+            font-size: 2vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 600px;
+            width: 70%;
+        }
+        #otherinfo{
+            margin-left: 10%;
+            margin-right: 5%
+        }
+        #direction P{
+            font-size: 2.5vw;
+        }
+        #direction h2{
+            font-size: 3vw;
+            margin-top: -5%;
+        }
+        #speed h2{
+            font-size: 3vw;
+        }
+        #speed p{
+            font-size: 3vw;
+        }
+        #rain h2 {
+            font-size: 3vw;
+            margin-top: 0%;
+        }
+        #rain p{
+            font-size: 3vw;
+        }
+}
+    @media screen and (min-width: 1500px){
+        #hourly{
+            height: 700px;
+            font-size: 2vw;
+        }
+        #otherinfo{
+            margin-left: 10%;
+        }
+        }
+
+

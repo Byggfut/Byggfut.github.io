@@ -17,7 +17,7 @@ nav{
     flex: 1 25%;
 }
 aside{
-    flex: 1 25;
+    flex: 1 25%;
 }
 main{
     flex: 2 50%;

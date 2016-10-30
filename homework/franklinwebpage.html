@@ -6,18 +6,17 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Franklin Weather Conditions</title>
     <meta name="viewport" content="width=device-width">
-    <link href="/CSS/style2.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="/CSS/weather.css" type="text/css" rel="stylesheet" media="screen">
 </head>
 <body>
     <div id="wrapper">
         <nav>
-           <ul>
-                <li id="F">Franklin, ID</li>
-                <li id="S">Springfield, IL</li>
-                <li><a href="/homework/Greenville.html" class="greenville">Greenville, IL</a></li>
-            </ul>
+            <a href="/homework/franklinwebpage.html" class="franklin">Franklin, ID</a>
+            <a
+               href="">Springfield, IL</a>
+            <a href="/homework/Greenville.html" class="greenville">Greenville, IL</a>
         </nav>
-        <div id="container">
+        <div class="container">
         <header>
         </header>
         <main>
@@ -30,16 +29,19 @@
                 <p id="lonandlat">-111.803757, 42.011902</p>
             </section>
 <!--            Summary with average temperatures and included image representing the weather conditions-->
+            <div id= "layout">
+            <div id="container">
+            <div id="mediumlayout">
             <section id="conditions">
-                <img src=/images/whitesun.png alt="sunny" id="sunny" >
+                <img src="/images/whitesun.png" alt="sunny" id="sunny" >
                 <h2>Sunny</h2>
-                <p>High: 90 &#8457;</p>
-                <p>Low: 66 &#8457;</p>
+                <p>High: 84 &#8457;</p>
+                <p>Low: 55 &#8457;</p>
             </section>
                 <table id="hourly">
                     <tr>
-                        <th>Hour</th>
-                        <th>Temperature</th>
+                        <th id="hour">Hour</th>
+                        <th id="temp">Temperature</th>
                     </tr>
                     <tr>
                         <td>0</td>
@@ -138,26 +140,31 @@
                         <td>66&#8457;</td>
                     </tr>
                 </table>
-            <section id="rain">
+            </div>
+                <div id="otherinfo">
+                <section id="rain">
                 <h2>Precipitation</h2>
                 <p>0 inches</p>
             </section>
-    <table id="windtable">
-        <tr>
-            <th id="wind">Wind Speed</th>
-            <th id="direction">Wind Direction</th>
-        </tr>
-        <tr>
-            <td id="wind2">1-5 miles per hour</td>
-            <td id="direction2">Southwest</td>
-        </tr>
-    </table>
+            <section id="wind">
+                <div id="speed">
+                    <h2>Wind Speed</h2>
+                    <p>1-5</p>
+                </div>
+                <div id="direction">
+                    <h2>Direction</h2>
+                    <p>Southeast</p>
+
+                </div>
+                    </section>
+                </div>
+            </div>
             <section>
                 <img src="/images/iphonefinal.GIF" alt="iphone" id="iphone">
                 <img src="/images/ipadfinal.GIF" alt="ipad" id="ipad">
                 <img src="/images/capture.png" alt="browser" id="browser">
-        </div>
             </section>
+            </div>
         </main>
         <footer>
             <ul>
@@ -171,6 +178,7 @@
             </ul>
             <p> </p>
         </footer>
+        </div>
     </div>
 </body>
 
