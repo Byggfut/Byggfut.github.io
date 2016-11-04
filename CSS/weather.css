@@ -170,9 +170,13 @@
             display: none;
         }
         #browser{
+            margin-top: 150px;
             display: inline;
             position: relative;
             width: 50%;
+        }
+        #zip, #lonandlat{
+            display: inline;
         }
         a{
             font-size: 2vw;
@@ -206,7 +210,6 @@
         }
         #conditions p{
             font-size: 2vw;
-            margin-bottom: 150px;
         }
         #hourly{
             font-size: 2vw;
@@ -235,7 +238,6 @@
         }
         #rain h2 {
             font-size: 2vw;
-            margin-top: 0%;
         }
         #rain p{
             font-size: 1.5vw;
