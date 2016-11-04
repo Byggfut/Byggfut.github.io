@@ -1,23 +1,14 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Franklin Weather Conditions</title>
-    <meta name="viewport" content="width=device-width">
-    <link href="/CSS/weather.css" type="text/css" rel="stylesheet" media="screen">
+<head id="page-header">
 </head>
 <body>
     <div id="wrapper">
-        <nav>
-            <a href="/homework/franklinwebpage.html" class="franklin">Franklin, ID</a>
-            <a
-               href="">Springfield, IL</a>
-            <a href="/homework/Greenville.html" class="greenville">Greenville, IL</a>
+        <nav id="page-nav">
         </nav>
         <div class="container">
-        <header>
+        <header id="page-header">
         </header>
         <main>
 <!--            Location of Selected Weather Conditions-->
@@ -166,18 +157,17 @@
             </section>
             </div>
         </main>
-        <footer>
-            <ul>
-                <li>&copy;2016</li>
-                <li>
-                    Jossten Childs
-                </li>
-                <li>Last Updated:
-                    October 22<sup>nd</sup>, 2016
-                </li>
-            </ul>
-            <p> </p>
-        </footer>
+        <footer id="page-footer">
+            </footer>
+            <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+            <script src="/homework/weather/modules/modules.js"></script>
+            <noscript>
+                <div style="position: fixed; top: 0px; left: 0px; z-index: 3000;
+                            height: 100%; width: 100%; background-color: #FFFFFF">
+                    <p style="margin-left: 10px">Oops, looks like JavaScript is not enabled.</p>
+                </div>
+            </noscript>
+            </body>
         </div>
     </div>
 </body>

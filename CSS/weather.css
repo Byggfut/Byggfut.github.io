@@ -13,9 +13,10 @@
         justify-content: space-around;
         width: 100%;
         font-size: 100%;
+        background-color: bisque
     }
     a{
-        color: lightgoldenrodyellow;
+        color: darkslategray;
         text-decoration: inherit;
         font-weight: bold;
         font-size: 4.5vw;
@@ -171,8 +172,7 @@
         #browser{
             display: inline;
             position: relative;
-            bottom: -200px;
-            width: 100%;
+            width: 50%;
         }
         a{
             font-size: 2vw;
