@@ -64,13 +64,17 @@
 
 }
     #hourly {
+        display: flex;
+        justify-content: space-around;
         border-collapse: collapse;
-        text-align: right;
         overflow-y: scroll;
-
-}
+        width: 100%;
+        height: 500px;
+    }
     th, td {
     padding: 10px;
+    text-align: center;
+        font-size: 7vw;
 }
     #wind{
         flex-direction: column;
@@ -84,7 +88,7 @@
 
     }
     #rain h2 {
-        font-size: 5vw;
+        font-size: 6vw;
         margin-bottom: 5%;
     }
     #rain p{
@@ -97,7 +101,10 @@
     #iphone{
         width: 100%;
     }
-    #hourly, #zip, #lonandlat, #ipad, #browser {
+#hourly{
+    font-size: 4vw;
+}
+    #zip, #lonandlat, #ipad, #browser {
         display: none;
     }
     #wind{
