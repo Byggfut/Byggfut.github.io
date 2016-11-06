@@ -157,9 +157,11 @@
         display: inline;
         text-align: center;
         width: 50%;
-        font-size: 4.5vw;
         height: 600px;
         margin-bottom: 40px;
+    }
+    th, td{
+        font-size: 5vw;
     }
     #layout{
         margin-top: 20px;
@@ -224,6 +226,9 @@
             justify-content: center;
             height: 550px;
             width: 70%;
+        }
+        th, td{
+            font-size: 2vw;
         }
         #otherinfo{
             margin-left: 10%;
