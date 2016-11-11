@@ -53,10 +53,10 @@ h1 {
     background-image:
     url(/homework/responsive_media/images/nps-logo_50.png),
     url(/homework/responsive_media/images/banner_400.jpg);
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat, no-repeat;
     background-position: right;
+    background-size: 2em, 100%;
 }
-
 /*******************************
 * Page Navigation Styles
 *******************************/
@@ -180,6 +180,7 @@ video {
         url(/homework/responsive_media/images/banner_800.jpg);
     background-repeat: no-repeat, repeat;
     background-position: right;
+    background-size: 3em, 100%;
     }
     .page-nav {
         position: relative;
@@ -231,6 +232,7 @@ video {
             url(/homework/responsive_media/images/banner_1200.jpg);
         background-repeat: no-repeat, no-repeat;
         background-position: right;
+        background-size: 5em, 100%;
     }
     .page-nav li {
         flex: 0 1 10%;
