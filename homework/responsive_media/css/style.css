@@ -53,7 +53,7 @@ h1 {
     background-image:
     url(/homework/responsive_media/images/nps-logo_50.png),
     url(/homework/responsive_media/images/banner_400.jpg);
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat, repeat;
     background-position: right;
 }
 
@@ -122,8 +122,7 @@ h1 {
     font-size: 80%;
     background: rgba(0, 0, 0, .1);
 }
-
-.featured-video {
+video {
     display: block;
     width: 100%;
     height: auto;
@@ -179,7 +178,7 @@ h1 {
      background-image:
         url(/homework/responsive_media/images/nps-logo_100.png),
         url(/homework/responsive_media/images/banner_800.jpg);
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat, repeat;
     background-position: right;
     }
     .page-nav {
@@ -242,3 +241,4 @@ h1 {
         padding-left: 2em;
     }
 }
+
