@@ -261,6 +261,8 @@ footer {
     position: relative;
     background:rgba(0, 167, 255, 0.86);
     align-content: center;
+    width: inherit;
+    height: 15%;
 }
 
 footer h5 {
@@ -278,6 +280,7 @@ footer a {
     font-weight: normal;
     color:whitesmoke;
     margin-top: 10%;
+    text-align: center;
 }
 
 
