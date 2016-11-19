@@ -24,11 +24,11 @@
     font-size: 15px;
     border-radius: 15px;
     box-shadow: 2px 6px 1px rgb(213, 66, 66);
-/*	-webkit-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;*/
-/*	   -moz-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;*/
-/*	    -ms-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;*/
-/*	     -o-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;*/
-/*	        transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;*/
+    -webkit-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
+       -moz-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
+        -ms-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
+         -o-transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
+            transition: border 200ms, background 200ms, box-shadow 200ms, top 200ms;
 }
 
 .toggleOn {
