@@ -33,14 +33,13 @@ $(function () {
                   var summary = parsed_json['current_observation']['weather'];
                   var zip = parsed_json['location']['zip'];
                   var wind = parsed_json['current_observation']['wind_mph'];
-                  var elevation = parsed_json['conditions'] ['display_location.elevation'];
+
             $("#cityDisplay").html(city + ", " + state + summary );
             $("title").html(city + ", " + state );
             $("#currentTemp").html(Math.round(temp_f) + "&#176");
             $("#summary").html(summary);
             $("#add1").html("Zip code:" + " " + zip);
             $('#add2').html("Elevation is" + " " + elevation);
-            $('#add3').html("Wind Speed" + " " + "is" + " " + wind + " " + "mph")
 
               }
           });
