@@ -31,14 +31,16 @@ $(function () {
                   var city = parsed_json['location']['city'];
                   var state = parsed_json['location']['state'];
                   var weather = parsed_json['current_observation']['weather'];
+                  var UV = parsed_json['current_observation']['UV'];
+                  var zip = parsed_json['location']['zip'];
                   var wind = parsed_json['current_observation']['wind_mph'];
-                  var country = parsed_json['current_observation']['UV'];
 
             $("#cityDisplay").html(city + ", " + state);
             $("title").html(city + ", " + state );
             $("#currentTemp").html(Math.round(temp_f) + "&#176");
             $("#summary").html(weather);
-            $('#add2').html("UV Level:" + " " + country);
+            $('#add1').html("ZIP:" + " " + zip);
+            $('#add2').html("UV Level:" + " " + UV);
             $('#add3').html("Wind Speed is" + " " + wind + " " + "mph");
 
 

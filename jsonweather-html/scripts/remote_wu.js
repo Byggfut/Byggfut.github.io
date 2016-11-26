@@ -39,7 +39,7 @@ $(function () {
             $("title").html(city + ", " + state );
             $("#currentTemp").html(Math.round(temp_f) + "&#176");
             $("#summary").html(summary);
-            $("#add1").html("Zip code:" + " " + zip);
+            $("#add1").html("Zip Code:" + " " + zip);
             $('#add2').html("Country:" + " " + country);
             $('#add3').html("Wind Speed is" + " " + wind + " " + "mph");
 

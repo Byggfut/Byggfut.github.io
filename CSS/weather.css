@@ -50,6 +50,9 @@
         margin-bottom: 0px;
         font-size: 8vw;
 }
+    #cityDisplay{
+        font-size: 15vw;
+    }
     #conditions {
         display: flex;
         flex-direction: column;
@@ -62,12 +65,13 @@
         margin-top: 0px;
     }
     #currentTemp{
-        font-size: 11vw;
-        margin-bottom: 10%;
-        margin-top: 0px;
+        font-size: 15vw;
+        margin-bottom: 15%;
+        margin-top: 10%;
+
     }
     #summary{
-        font-size:
+        font-size: 10vw;
     }
     #conditions h2 {
         font-size: 7vw;
@@ -197,6 +201,30 @@
     #city{
         margin-top: 30px;
     }
+    #cityDisplay{
+        font-size: 9vw;
+        margin-top: 3%;
+    }
+    #currentTemp{
+        font-size: 9vw;
+        margin-bottom: 2%;
+        margin-top: 5%;
+
+    }
+    #summary{
+        font-size: 7vw;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #add1{
+        font-size: 4vw;
+    }
+    #add2{
+        font-size: 4vw;
+    }
+    #add3{
+        font-size: 4vw;
+    }
             }
     @media screen and (min-width: 1000px){
         html{
@@ -280,6 +308,31 @@
         }
         #rain p{
             font-size: 1.5vw;
+        }
+        #cityDisplay{
+            font-size: 6vw;
+            text-align:left;
+            margin-top: 3%;
+        }
+        #currentTemp{
+            font-size: 6vw;
+            margin-bottom: 2%;
+            margin-top: 5%;
+            text-align: left;
+            margin-left: 13%;
+
+        }
+        #summary{
+            font-size: 5vw;
+            margin-top: 0%;
+            text-align: left;
+            margin-left: 11%;
+        }
+        #add2{
+            font-size: 3vw;
+        }
+        #add3{
+            font-size: 3vw;
         }
 }
 
