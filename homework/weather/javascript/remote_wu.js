@@ -30,17 +30,15 @@ $(function () {
                   var temp_f = parsed_json['current_observation']['temp_f'];
                   var city = parsed_json['location']['city'];
                   var state = parsed_json['location']['state'];
-                  var summary = parsed_json['current_observation']['weather'];
-                  var zip = parsed_json['location']['zip'];
+                  var weather = parsed_json['current_observation']['weather'];
                   var wind = parsed_json['current_observation']['wind_mph'];
-                  var country = parsed_json['location']['country']
+                  var country = parsed_json['current_observation']['UV'];
 
             $("#cityDisplay").html(city + ", " + state);
             $("title").html(city + ", " + state );
             $("#currentTemp").html(Math.round(temp_f) + "&#176");
-            $("#summary").html(summary);
-            $("#add1").html("Zip code:" + " " + zip);
-            $('#add2').html("Country:" + " " + country);
+            $("#summary").html(weather);
+            $('#add2').html("UV Level:" + " " + country);
             $('#add3').html("Wind Speed is" + " " + wind + " " + "mph");
 
 
