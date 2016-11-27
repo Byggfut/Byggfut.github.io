@@ -37,7 +37,7 @@ $(function () {
 
             $("#cityDisplay").html(city + ", " + state);
             $("title").html(city + ", " + state );
-            $("#currentTemp").html(Math.round(temp_f) + "&#176");
+            $("#currentTemp").html(Math.round(temp_f) + "&#176" + " " + "F");
             $("#summary").html(summary);
             $("#add1").html("Zip Code:" + " " + zip);
             $('#add2').html("Country:" + " " + country);
