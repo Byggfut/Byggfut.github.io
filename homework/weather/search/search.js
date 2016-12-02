@@ -3,7 +3,7 @@ $('#query').keyup(function(){
 }); // end keyup
 var value = $('#query').val();
 var rExp = new RegExp(value, "i");
-$.getJSON("http://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
+$.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
     console.log(data);
 }); // end getJSON
 $('#query').keyup(function() {
@@ -38,7 +38,7 @@ function toTitleCase(str){
 function getData(input) {
     // Get the data from the wunderground API
     $.ajax({
-        url: "http://api.wunderground.com/api/d82a3553533fd3b3/geolookup/conditions/q/"
+        url: "https://api.wunderground.com/api/d82a3553533fd3b3/geolookup/conditions/q/"
         + input + ".json"
         , dataType: "jsonp"
         ,  success : function(data) {
