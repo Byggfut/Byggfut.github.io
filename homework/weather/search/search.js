@@ -63,7 +63,7 @@ $("#searchResults").on("click", "a", function (evt) {
     console.log(jsonCity);
     $.ajax({
         url: "https://api.wunderground.com/api/d82a3553533fd3b3/geolookup/conditions/q/" + jsonCity +".json"
-        , dataType: "json"
+        , dataType: "jsonp"
         , success: function (data) {
             console.log(data);
             console.log(data['location']['zip']);
