@@ -73,6 +73,6 @@ $("#searchResults").on("click", "a", function (evt) {
         }
     });
 });
-$("#searchResults").on("click", "a", function myFunction(evt) {
+$("#searchResults").on("click", "a", function (evt) {
     document.getElementById("ol").style.display = "none";
 })
