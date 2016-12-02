@@ -213,7 +213,6 @@
     }
     #summary{
         font-size: 7vw;
-        margin-top: 10%;
         margin-bottom: 10%;
     }
     #add1{
@@ -310,23 +309,14 @@
             font-size: 1.5vw;
         }
         #cityDisplay{
-            font-size: 6vw;
-            text-align:left;
-            margin-top: 3%;
+            text-align: center;
         }
         #currentTemp{
-            font-size: 6vw;
-            margin-bottom: 2%;
-            margin-top: 5%;
-            text-align: left;
-            margin-left: 13%;
-
+            text-align: center;
         }
         #summary{
             font-size: 5vw;
-            margin-top: 0%;
-            text-align: left;
-            margin-left: 11%;
+            text-align: center;
         }
         #add2{
             font-size: 3vw;

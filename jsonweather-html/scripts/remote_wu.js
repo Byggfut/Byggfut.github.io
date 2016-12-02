@@ -33,7 +33,8 @@ $(function () {
                   var summary = parsed_json['current_observation']['weather'];
                   var zip = parsed_json['location']['zip'];
                   var wind = parsed_json['current_observation']['wind_mph'];
-                  var country = parsed_json['location']['country']
+                  var country = parsed_json['location']['country'];
+//                  var moon = parsed_json['response']['moon_phase']['percentIlluminated'];
 
             $("#cityDisplay").html(city + ", " + state);
             $("title").html(city + ", " + state );
