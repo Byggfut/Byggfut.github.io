@@ -18,7 +18,7 @@ $.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", f
 }); // end getJSON
 }); // end onkeyup
 // A function for changing a string to TitleCase
-function toTitleCase(s  tr){
+function toTitleCase(str){
     return str.replace(/\w+/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 // Get weather data from wunderground.com
