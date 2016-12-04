@@ -4,7 +4,7 @@ $('#query').keyup(function() {
     $.getJSON("http://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function(data) {
         console.log(data); // test for JSON received
         // Begin building output
-        var output = '<ol>';
+        var output = '<ol id="ol">';
         $.each(data.RESULTS, function(key, val) {
             if (val.name.search(rExp) != -1) {
                 output += '<li>';
