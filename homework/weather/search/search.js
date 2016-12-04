@@ -1,11 +1,3 @@
-$('#query').keyup(function(){
-    // All code will be inside of this block
-}); // end keyup
-var value = $('#query').val();
-var rExp = new RegExp(value, "i");
-$.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", function (data) {
-    console.log(data);
-}); // end getJSON
 $('#query').keyup(function() {
 var value = $('#query').val();
 var rExp = new RegExp(value, "i");
@@ -26,7 +18,7 @@ $.getJSON("https://autocomplete.wunderground.com/aq?query=" + value + "&cb=?", f
 }); // end getJSON
 }); // end onkeyup
 // A function for changing a string to TitleCase
-function toTitleCase(str){
+function toTitleCase(s  tr){
     return str.replace(/\w+/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
 }
 // Get weather data from wunderground.com
