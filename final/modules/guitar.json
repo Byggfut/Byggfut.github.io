@@ -4,7 +4,7 @@
         "Difficulty": "Easy",
         "Level": "0",
         "Details": "Learn the basics of how the fretboard works with smoke on the water",
-        "Link": "/finalproject/videos/lesson3.mp4"
+        "Link": "/final/videos/lesson3.mp4"
     },
 
     "lesson3":{
@@ -12,7 +12,7 @@
         "Difficulty": "Easy",
         "Level": "0",
         "Details": "Learn more about anchor points by learning the song 'Iron Man'",
-        "Link": "/finalproject/videos/lesson3.mp4"
+        "Link": "/final/videos/lesson3.mp4"
 
     }
 }

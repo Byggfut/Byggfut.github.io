@@ -4,7 +4,7 @@
     }
 }
 html{
-    background-image: url(/finalproject/images/backgroundsmall.jpg);
+    background-image: url(/final/images/backgroundsmall.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     ;
@@ -42,7 +42,7 @@ p#pitch{
     flex-flow: row;
     width: 100%;
     height: 5em;
-    background-image: url(/finalproject/images/logo.png);
+    background-image: url(/final/images/logo.png);
     background-size: 5em, 100%;
     background-repeat: no-repeat;
     background-position: right;
@@ -211,7 +211,7 @@ aside{
 }
 @media screen and (min-width: 550px){
     html{
-        background-image: url(/finalproject/images/backgroundmedium.jpg);
+        background-image: url(/final/images/backgroundmedium.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         ;
@@ -224,7 +224,7 @@ aside{
         flex-flow: row;
         width: 100%;
         height: 7em;
-        background-image: url(/finalproject/images/logo.png);
+        background-image: url(/final/images/logo.png);
         background-size: 7em, 100%;
         background-repeat: no-repeat;
         background-position: right;
@@ -233,7 +233,7 @@ aside{
         font-size: 3vw;
     }
     html{
-    background-image: url(/finalproject/images/backgroundmedium.jpg);
+    background-image: url(/final/images/backgroundmedium.jpg);
     }
     .dropbtn{
         display:none;
@@ -283,7 +283,7 @@ aside{
         flex-flow: row;
         width: 100%;
         height: 8em;
-        background-image: url(/finalproject/images/logo.png);
+        background-image: url(/final/images/logo.png);
         background-size: 8em, 100%;
         background-repeat: no-repeat;
         background-position: right;
@@ -293,7 +293,7 @@ aside{
     }
     @media screen and (min-width: 1000px){
         html{
-            background-image: url(/finalproject/images/backgroundlarge.jpg);
+            background-image: url(/final/images/backgroundlarge.jpg);
             background-attachment: fixed;
             background-repeat: no-repeat;
             ;
@@ -303,7 +303,7 @@ aside{
             flex-flow: row;
             width: 100%;
             height: 11em;
-            background-image: url(/finalproject/images/logo.png);
+            background-image: url(/final/images/logo.png);
             background-size: 11em, 100%;
             background-repeat: no-repeat;
             background-position: right;

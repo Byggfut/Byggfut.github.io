@@ -1,11 +1,11 @@
 //$(document).ready(function(){
-//$.getJSON( "../finalproject/modules/z.json", function (data){
+//$.getJSON( "../final/modules/z.json", function (data){
 //   console.log(data);
 //    $(".Date1").text(data.lesson2.Date);
 //});
 //});
 //
-$.getJSON( "../finalproject/modules/guitar.json", function( data ) {
+$.getJSON( "../final/modules/guitar.json", function( data ) {
 //    console.log(data)
 //    var items = [];
 //    $.each( data, function( key, val ) {
@@ -18,7 +18,7 @@ $.getJSON( "../finalproject/modules/guitar.json", function( data ) {
 //    }).appendTo( "source" );
 //});
 document.getElementById("demo").innerHTML = fruits;
-    $.getJSON( "../finalproject/modules/guitar.json", function( data ) {
+    $.getJSON( "../final/modules/guitar.json", function( data ) {
 var fruits = [""];
 function myFunction() {
     fruits.push("Kiwi");
