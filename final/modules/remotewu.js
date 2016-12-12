@@ -1,10 +1,3 @@
-//$(document).ready(function(){
-//$.getJSON( "../final/modules/z.json", function (data){
-//   console.log(data);
-//    $(".Date1").text(data.lesson2.Date);
-//});
-//});
-
 $.getJSON( "../final/modules/guitar1.json", function( data ) {
     var items = [];
     $.each( data, function( key, val ) {
