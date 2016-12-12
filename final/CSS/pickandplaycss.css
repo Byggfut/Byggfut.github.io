@@ -670,6 +670,12 @@ aside{
         p{
             font-size: 1.5vw;
         }
+        h2{
+            font-size: 3vw;
+        }
+        h3{
+            font-size: 2vw;
+        }
         table, th, td {
             border: 3px solid black;
             color: white;
