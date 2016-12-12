@@ -1,6 +1,7 @@
 $(function(){
     console.log("run");
     $.getJSON( "/final/modules/blogjson.json", function( data ) {
+        console.log(data);
         var items = [];
         console.log("anything");
         $.each( data, function( key, val ) {
