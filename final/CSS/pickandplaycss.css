@@ -687,6 +687,10 @@ aside{
         }
         #sidebar h2{
             text-align: center;
+            font-size: 2vw;
+        }
+        #contactinfo{
+            font-size: 2vw;
         }
         li{
             font-size: 1.5vw;
