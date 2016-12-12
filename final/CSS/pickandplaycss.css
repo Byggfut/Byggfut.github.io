@@ -219,6 +219,11 @@ aside{
     video{
         width:50%;
     }
+    .lessonvideo{
+        width: 100%;
+        }
+    }
+    }
     #header{
         display: flex;
         flex-flow: row;
@@ -309,6 +314,10 @@ aside{
             background-repeat: no-repeat;
             background-position: right;
         }
+        .lessonvideo{
+            position: inline;
+            width: 40%;
+            padding: 1em;
     }
 
 
