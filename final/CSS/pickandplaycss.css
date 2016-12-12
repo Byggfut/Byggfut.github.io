@@ -233,7 +233,7 @@ aside{
         font-size: 3vw;
     }
     html{
-    background-image: url(/final/images/backgroundmedium.jpg);
+        background-image: url(/final/images/backgroundmedium.jpg);
     }
     .dropbtn{
         display:none;
@@ -252,7 +252,7 @@ aside{
         width: 25%;
         max-width: 200px;
     }
-   #nav{
+    #nav{
         display: flex;
         flex-direction: column;
         flex-basis: 25%;
@@ -293,10 +293,11 @@ aside{
     }
     @media screen and (min-width: 1000px){
         html{
-            background-image: url(/final/images/backgroundlarge.jpg);
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            ;
+            background: url(/final/images/backgroundlarge.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
         #header{
             display: flex;
