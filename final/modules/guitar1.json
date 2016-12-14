@@ -1,5 +1,12 @@
 {
-        "Link":"../final/videos/lesson2.mp4",
+        "Link":"/final/videos/lesson2.mp4",
 
-        "Link2":"../final/videos/lesson3.mp4"
+        "Link2":"/final/videos/lesson3.mp4",
+
+        "Link3":"/final/videos/lesson4.mp4",
+
+        "Link4":"/final/videos/lesson5.mp4",
+
+        "Link5":"/final/videos/lesson6.mp4"
+
 }

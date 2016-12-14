@@ -16,6 +16,15 @@ html{
 
     background-repeat: no-repeat;
 
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+
+
     ;
 
 }
@@ -50,6 +59,10 @@ h3{
 
 }
 
+h4{
+    color: lightgoldenrodyellow;
+    font-size: 5vw;
+}
 p{
 
     color: antiquewhite;
@@ -183,7 +196,13 @@ p#pitch{
 
 }
 #pagebutton{
+    position: fixed;
+
     color: dimgrey;
+
+    bottom: 0;
+
+    right: 0;
 
     font-size: 16px;
 
@@ -197,13 +216,15 @@ p#pitch{
 
     padding: 0px;
 
-    width: 6em;
+    margin: 2%;
+
+    width: 7em;
 
     height: 3em;
 
     border-radius: 5em;
 
-    float: right;
+
 }
 
 
@@ -468,12 +489,18 @@ aside{
     border-radius: 5em;
 
     float: left;
-}Inew
+}
 #profilepic{
     background-image: url(/final/images/profilepicsmall.jpg);
 }
 .mynewlist{
     list-style-type: none;
+}
+.ulink{
+    font-size: 6vw;
+}
+footer ul li{
+    font-size: 3vw;
 }
 @media screen and (min-width: 550px){
 
@@ -485,8 +512,31 @@ aside{
 
         background-repeat: no-repeat;
 
+        -webkit-background-size: cover;
+
+        -moz-background-size: cover;
+
+        -o-background-size: cover;
+
+        background-size: cover;
+
+
         ;
 
+    }
+    footer ul li{
+        font-size: 2.5vw;
+    }
+    .ulink{
+        font-size: 3vw;
+    }
+    .text{
+        font-size: 2.5vw;
+    }
+    #pagebutton{
+        width: 9em;
+
+        height: 4em;
     }
     table, th, td {
         border: 2px solid black;
@@ -495,6 +545,9 @@ aside{
     }
     li{
         font-size: 3vw;
+    }
+    h4{
+        font-size: 2.5vw;
     }
     aside{
         width: 30%;
@@ -512,9 +565,6 @@ aside{
         padding: 10px;
         border-radius: 40px;
 
-    }
-    .text{
-        font-size: 4vw;
     }
     video{
 
@@ -668,7 +718,7 @@ aside{
 
     @media screen and (min-width: 1000px){
         p{
-            font-size: 1.5vw;
+            font-size: 1.75vw;
         }
         h2{
             font-size: 3vw;
@@ -681,9 +731,31 @@ aside{
             color: white;
             font-size: 1.5vw;
         }
+        .ulink{
+            font-size: 2vw;
+        }
+        #indexvideo{
+            width: 75%;
+        }
         #sidebar{
          margin-left: 3vw;
          width: 30vw;
+        }
+        #mediumnav button{
+            width: 100px;
+            height: 100px;
+        }
+        p.contact{
+            font-size: 1.5vw;
+        }
+        .slideshow-container{
+            width: 75%;
+        }
+        .slideshow-container2{
+            width: 75%;
+        }
+        .diagram{
+            width: 75%;
         }
         #sidebar h2{
             text-align: center;
@@ -740,3 +812,12 @@ aside{
         }
 
     }
+    @media screen and (min-width: 1200px){
+        a{
+            font-size: 1vw;
+        }
+        h1{
+            font-size: 5vw;
+        }
+    }
+

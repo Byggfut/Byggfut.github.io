@@ -1,22 +1,19 @@
 {
     "blog1": {
-        "Date": "December 2, 2016",
-        "Topic":"Fretboard",
-        "Summary": "Playing a guitar rwuires decent undertsnading of the fretboard mechanics",
-        "Details": "Learn the basics of how the fretboard works with smoke on the water",
-        "Article": "When playing the guitar it's. Important to keep in mind that yoru accuracy will depend on your skill and undertsndibng of the fretboard. Understanding how ot work anchor points is very improtant",
-        "Date1": "December 2, 2016",
-        "Topic1":"Fretboard",
-        "Summary1": "Playing a guitar rwuires decent undertsnading of the fretboard mechanics",
-        "Details1": "Learn the basics of how the fretboard works with smoke on the water",
-        "Article2": "WHen playing the guitar it's. Important to keep in mind that yoru accuracy will depend on your skill and undertsndibng of the fretboard. Understanding how to work anchor points is very improtant",
-        "Date2": "December 2, 2016",
-        "Topic2":"Fretboard",
-        "Summary2": "Playing a guitar rwuires decent undertsnading of the fretboard mechanics",
-        "Details2": "Learn the basics of how the fretboard works with smoke on the water",
-        "Article2": "WHen playing the guitar it's. Important to keep in mind that yoru accuracy will depend on your skill and undertsndibng of the fretboard. Understanding how ot work anchor points is very improtant"
+        "date": "December 2, 2016",
+        "topic":"Daily Topic: Fretboard",
+        "details": "Learn the basics of how the fretboard works with smoke on the water",
+        "article": "When playing the guitar it's important to keep in mind that yoru accuracy will depend on your skill and understanding of the fretboard. Understanding how ot work anchor points is very improtant to helping you maintain stability on the guitar"
+    },
+    "blog2": {
+        "date": "December 6, 2016",
+        "topic":"Daily Topic: Picking",
+        "details": "Learn how to use a pick more accurately through some short excersises",
+        "article": "When using a pick, it's important to rememeber that the sound generates from your effective strumming. Learning how to strum quickly and controlled will produce a much more accurate and pleasing sound when strummed."
 
-    }
+},
+        "blog3": {
 
-    }
 }
+}
+
