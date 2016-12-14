@@ -42,7 +42,9 @@ h1{
     font-size: 8vw;
 
 }
-
+indexvideo{
+    border-radius: 20px;
+}
 h2{
 
     color: white;
@@ -725,6 +727,9 @@ footer ul li{
         }
         h3{
             font-size: 2vw;
+        }
+        .mainheader{
+            margin-top: 0%;
         }
         table, th, td {
             border: 3px solid black;
