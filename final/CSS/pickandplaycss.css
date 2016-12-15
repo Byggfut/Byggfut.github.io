@@ -154,7 +154,7 @@ p#pitch{
 
 .dropdown {
 
-    position:relative;
+    position: relative;
 
     display: inline-block;
 
@@ -163,7 +163,9 @@ p#pitch{
 
 
 }
-
+.slideshowcontainer2{
+    z-index: -1;
+}
 #menu{
 
     text-align: center;
