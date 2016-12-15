@@ -88,6 +88,8 @@ li{
 
     border-radius: 50px;
 
+    margin-top: 3%;
+
 }
 
 p#pitch{
@@ -156,6 +158,8 @@ p#pitch{
 
     display: inline-block;
 
+    z-index: 10;
+
 
 
 }
@@ -175,6 +179,9 @@ p#pitch{
     width: 100%;
 
 }
+.button{
+
+}
 
 .dropdown-content {
 
@@ -186,7 +193,7 @@ p#pitch{
 
     min-width: 160px;
 
-    height: 330px;
+    height: 270px;
 
     overflow:visible;
 
@@ -225,7 +232,6 @@ p#pitch{
     height: 3em;
 
     border-radius: 5em;
-
 
 }
 
@@ -469,8 +475,14 @@ aside{
     display: none;
 
 }
-#previouspagebutton{
+#ppage{
+    position: fixed;
+
     color: dimgrey;
+
+    bottom: 0;
+
+    left: 0;
 
     font-size: 16px;
 
@@ -484,13 +496,16 @@ aside{
 
     padding: 0px;
 
+    margin: 2%;
+
     width: 7em;
 
     height: 3em;
 
     border-radius: 5em;
 
-    float: left;
+
+}
 }
 #profilepic{
     background-image: url(/final/images/profilepicsmall.jpg);
@@ -503,6 +518,9 @@ aside{
 }
 footer ul li{
     font-size: 3vw;
+}
+#footercontent{
+    margin-top: 30%;
 }
 @media screen and (min-width: 550px){
 
@@ -522,9 +540,18 @@ footer ul li{
 
         background-size: cover;
 
-
-        ;
-
+    }
+    #ppage{
+        position: fixed;
+        margin: 0% 0% 2% 2%;
+        margin: 0px;
+        bottom: 0;
+        left:0;
+        width: 20vw;
+        height: 7vw;
+    }
+    #footercontent{
+        margin-top: 30%;
     }
     footer ul li{
         font-size: 2.5vw;
@@ -536,9 +563,9 @@ footer ul li{
         font-size: 2.5vw;
     }
     #pagebutton{
-        width: 9em;
-
-        height: 4em;
+        width: 20vw;
+        height: 7vw;
+        font-size: 2.5vw;
     }
     table, th, td {
         border: 2px solid black;
@@ -728,6 +755,14 @@ footer ul li{
         h3{
             font-size: 2vw;
         }
+        #ppage{
+            position: fixed;
+            bottom: 0;
+            left:0;
+            margin: 0% 0% 2% 2%;
+            width: 20vw;
+            height: 7vw;
+        }
         .mainheader{
             margin-top: 0%;
         }
@@ -818,8 +853,18 @@ footer ul li{
 
     }
     @media screen and (min-width: 1200px){
-        a{
+        button a{
             font-size: 1vw;
+        }
+        #pagebutton{
+            width: 12vw;
+            height: 4vw;
+            font-size: 2vw;
+        }
+        #ppage{
+            width: 15vw;
+            height: 4vw;
+            font-size: 2vw;
         }
         h1{
             font-size: 5vw;
